@@ -1,0 +1,13 @@
+:root{
+    --color1:#0EE87E;
+    --color2:#00A9A1 ;
+    --color3:#00677E ;
+    --color4:#2F4858 ;
+    --color5:#FEFEFE ;
+    --notoSans:"Noto Sans", sans-serif
+}
+
+body{
+    font-size: 24px;
+}
+
