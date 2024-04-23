@@ -1,0 +1,60 @@
+.navbar {
+  height: 70px;
+  padding: 20px 25px;
+  background-color: var(--color3);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  width: 185px;
+  height: 36px;
+  order: 1;
+}
+.mailIcon {
+  width: 27px;
+  height: 23px;
+  order: 3;
+  
+  display: none;
+}
+
+.btnContact {
+}
+
+.boxList {
+  width: 100vw;
+  position: absolute;
+  background-color: var(--color3);
+  bottom: 0;
+  left: 0;
+  transform: translateY(100%);
+  padding-left: 25px;
+}
+
+.itemsLi {
+  list-style-type: none;
+  padding-left: 0;
+  color: var(--color5);
+  font-family: var(--notoSans);
+  font-size: 24px;
+  li{
+    padding: 9px 0px;
+  }
+}
+
+.hamburguerMenu {
+  box-sizing: border-box;
+  width: 36px;
+  height: 36px;
+  color: var(--color5);
+  order: 2;
+}
+
+.closeMenu {
+  order: 2;
+  width: 36px;
+  height: 36px;
+  color: var(--color5);
+}
