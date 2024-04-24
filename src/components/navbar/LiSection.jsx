@@ -15,9 +15,7 @@ const LiSection = () => {
   return (
     <>
       {desktop ? (
-        <>
           <ItemsLi />
-        </>
       ) : btnAction ? (
         <>
           <AiOutlineMenu

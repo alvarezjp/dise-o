@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -16,7 +17,7 @@
   width: 27px;
   height: 23px;
   order: 3;
-  
+
   display: none;
 }
 
@@ -39,22 +40,59 @@
   color: var(--color5);
   font-family: var(--notoSans);
   font-size: 24px;
-  li{
+  li {
     padding: 9px 0px;
   }
 }
 
 .hamburguerMenu {
   box-sizing: border-box;
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 20px;
   color: var(--color5);
   order: 2;
 }
 
 .closeMenu {
   order: 2;
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 20px;
   color: var(--color5);
+}
+
+@media screen and (min-width: 990px) {
+  .navbar {
+    padding: 0px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 15px ;
+  }
+  .itemsLi {
+    /* color: red; */
+    display: flex;
+    order: 2;
+    gap: 36px;
+    cursor: pointer;
+  }
+  .logo {
+    order: 1;
+    width: 237px;
+    height: 47px;
+  }
+  .btnContact {
+    order: 3;
+    width: 189px;
+    height: 44px;
+    border: 3px solid var(--color1);
+    background-color: transparent;
+    border-radius: 8px;
+    font-family: var(--notoSans);
+    font-weight: 500;
+    color: var(--color1);
+  }
+  .btnContact:hover {
+    background-color: var(--color1);
+    color: var(--color5);
+  }
 }

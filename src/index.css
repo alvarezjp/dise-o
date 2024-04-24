@@ -5,7 +5,8 @@
     --color4:#2F4858 ;
     --color5:#FEFEFE ;
     --color6:#16798F ;
-    --notoSans:"Noto Sans", sans-serif
+    --notoSans:"Noto Sans", sans-serif;
+    --desktop:990px;
 }
 
 body{
