@@ -1,0 +1,28 @@
+.home {
+  position: relative;
+  background-color: var(--color3);
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.coffeIcon {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-right: 12px;
+}
+
+.homeText{
+    font-family: var(--notoSerif);
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--color5);    
+}
+
+.article{
+    /* border: 1px solid red; */
+    width: 300px;
+}

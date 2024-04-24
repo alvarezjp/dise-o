@@ -13,16 +13,6 @@
   height: 36px;
   order: 1;
 }
-.mailIcon {
-  width: 27px;
-  height: 23px;
-  order: 3;
-
-  display: none;
-}
-
-.btnContact {
-}
 
 .boxList {
   width: 100vw;
@@ -66,10 +56,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    padding: 15px ;
+    padding: 15px;
   }
   .itemsLi {
-    /* color: red; */
     display: flex;
     order: 2;
     gap: 36px;

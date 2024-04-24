@@ -1,7 +1,7 @@
 import React from "react";
 import BtnContact from "./BtnContact";
 import LiSection from "./LiSection";
-import "./styled.css"
+import "./style.css"
 import { useMediaQuery } from "@react-hook/media-query";
 
 function Navbar() {
