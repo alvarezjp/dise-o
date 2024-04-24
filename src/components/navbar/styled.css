@@ -47,16 +47,16 @@
 
 .hamburguerMenu {
   box-sizing: border-box;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   color: var(--color5);
   order: 2;
 }
 
 .closeMenu {
   order: 2;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   color: var(--color5);
 }
 
