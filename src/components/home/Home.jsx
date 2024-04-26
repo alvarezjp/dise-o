@@ -8,9 +8,10 @@ function Home() {
     useEffect(() => {
         // Código para aplicar estilos dinámicos aquí
         const altura = window.innerHeight;
-        // const calculo = altura * 0.99;
-        // const elemento = document.getElementById("esto");
-        // elemento.style.height = `${calculo}px`
+        let calculo = (altura * 0.91);
+         calculo = calculo - 70;
+        const elemento = document.getElementById("esto");
+        elemento.style.height = `${calculo}px`
     }, []);
     return (
         <section className='home' id='esto'>

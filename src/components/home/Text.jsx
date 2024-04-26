@@ -2,7 +2,7 @@ import React from "react";
 
 function Text() {
    const altura = window.innerHeight;
-   const calculo = altura * 0.5;
+   const calculo = (altura * 0.94)-70;
 
   return (
     <article className="article">

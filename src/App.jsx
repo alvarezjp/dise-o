@@ -8,7 +8,7 @@ import Home from "./components/home/Home"
 const App = () => {
   return (
     <>
-   {/* <Navbar/> */}
+   <Navbar/>
    <Home/>
     </>
   );
