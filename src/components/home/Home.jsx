@@ -8,7 +8,7 @@ function Home() {
     useEffect(() => {
         // Código para aplicar estilos dinámicos aquí
         const altura = window.innerHeight;
-        const calculo = altura * 0.9;
+        const calculo = altura * 0.85;
         const elemento = document.getElementById("esto");
         elemento.style.height = `${calculo}px`
     }, []);
