@@ -11,7 +11,7 @@
 
 .coffeIcon {
   position: absolute;
-  bottom: 0px;
+  bottom: -1px;
   right: 0px;
   margin-right: 12px;
   width: 150px;
