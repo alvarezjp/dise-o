@@ -5,14 +5,6 @@ import CoffeIcon from './CoffeIcon';
 import { useEffect } from 'react';
 
 function Home() {
-    useEffect(() => {
-        // Código para aplicar estilos dinámicos aquí
-        const altura = window.innerHeight;
-        let calculo = (altura * 0.91);
-         calculo = calculo - 70;
-        const elemento = document.getElementById("esto");
-        elemento.style.height = `${calculo}px`
-    }, []);
     return (
         <section className='home' id='esto'>
             <Text/>

@@ -1,7 +1,8 @@
 .home {
+  box-sizing: border-box;
   position: relative;
   background-color: var(--color3);
-  /* height: 90vh; */
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,16 +14,40 @@
   bottom: 0px;
   right: 0px;
   margin-right: 12px;
+  width: 150px;
+  height: 148px;
 }
 
 .homeText{
     font-family: var(--notoSerif);
     font-size: 48px;
-    font-weight: 500;
-    color: var(--color5);    
+    font-weight: 600;
+    color: var(--color5);   
 }
 
 .article{
     /* border: 1px solid red; */
     width: 300px;
+}
+
+@media screen and (min-width: 620px) {
+.homeText{
+  font-size: 96px;
+}
+.article{
+  width: 610px;
+  box-sizing: border-box;
+}
+.coffeIcon{
+  width: 187px;
+  height: 185px;
+}
+
+}
+
+@media screen and (min-width: 990px) {
+  .coffeIcon{
+    width: 256px;
+    height: 254px;
+  }
 }
