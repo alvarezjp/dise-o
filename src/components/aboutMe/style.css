@@ -1,0 +1,63 @@
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 151px 20px 0px 20px;
+  /* border: 2px solid green; */
+}
+
+.name {
+  font-family: var(--notoSans);
+  color: var(--color2);
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--notoSerif);
+  color: var(--color3);
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 32px;
+  line-height: 66px;
+  min-width: 400px;
+}
+
+.paragraph {
+  font-family: var(--notoSans);
+  color: var(--color4);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  min-width: 400px;
+  width: 389px;
+
+  strong {
+    color: black;
+    font-weight: 500;
+  }
+}
+
+.photoSection {
+  position: relative;
+  height: 523px;
+  width: 389px;
+  /* bottom: 0; */
+  /* border: 1px solid red; */
+}
+
+.backgroundPhoto {
+  position: absolute;
+  z-index: 0;
+  bottom: 36px;
+  right: 0;
+}
+
+.photography {
+  z-index: 1;
+  position: absolute;
+}
