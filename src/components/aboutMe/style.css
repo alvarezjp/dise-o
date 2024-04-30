@@ -21,9 +21,10 @@
   font-family: var(--notoSerif);
   color: var(--color3);
   font-weight: 700;
-  font-size: 44px;
+  font-size: 10.2vw;
   margin-bottom: 32px;
   line-height: 66px;
+  
 }
 
 .paragraph {
@@ -32,7 +33,6 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  /* border: 1px solid red; */
 
   strong {
     color: black;
@@ -41,21 +41,17 @@
 }
 
 .photoSection {
-  position: relative;
-  height: 523px;
-  width: 389px;
-  /* bottom: 0; */
+  /* height: 523px;
+  width: 389px; */
   /* border: 1px solid red; */
 }
 
-.backgroundPhoto {
-  position: absolute;
-  z-index: 0;
-  bottom: 36px;
-  right: 0;
+.photography {
+ width: 100%;
 }
 
-.photography {
-  z-index: 1;
-  position: absolute;
+@media screen and (max-width: 390px) {
+  .title {
+    line-height: 50px;
+  }
 }

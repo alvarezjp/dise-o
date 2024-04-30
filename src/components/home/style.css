@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .coffeIcon {
@@ -18,36 +17,51 @@
   height: 148px;
 }
 
-.homeText{
-    font-family: var(--notoSerif);
-    font-size: 48px;
-    font-weight: 600;
-    color: var(--color5);   
+.homeText {
+  font-family: var(--notoSerif);
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--color5);
 }
 
-.article{
-    /* border: 1px solid red; */
-    width: 300px;
+.article {
+  /* border: 1px solid red; */
+  width: 300px;
 }
 
 @media screen and (min-width: 620px) {
-.homeText{
-  font-size: 96px;
-}
-.article{
-  width: 610px;
-  box-sizing: border-box;
-}
-.coffeIcon{
-  width: 187px;
-  height: 185px;
-}
-
+  .homeText {
+    font-size: 96px;
+  }
+  .article {
+    width: 610px;
+    box-sizing: border-box;
+  }
+  .coffeIcon {
+    width: 187px;
+    height: 185px;
+  }
 }
 
 @media screen and (min-width: 990px) {
-  .coffeIcon{
+  .coffeIcon {
     width: 256px;
     height: 254px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .homeText {
+    font-size: 12vw;
+    width: 80vw;
+  }
+
+  .article {
+    width: auto;
+    align-items: center;
+  }
+
+  .home {
+    height: 50vh;
   }
 }
