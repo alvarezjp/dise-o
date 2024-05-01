@@ -7,6 +7,7 @@ import Skills from "./components/skills/Skills";
 
 
 
+
 const App = () => {
   return (
     <>

@@ -5,7 +5,7 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 151px 20px 542px 20px;
+  padding: 151px 20px 0 20px;
   /* border: 1px solid blue; */
 }
 
@@ -41,25 +41,25 @@
 
 .photoSection {
   /* border: 3px solid blue; */
-  width: 100%; /* Opcional: define el ancho del contenedor */
-  height: 520px;
-  position: relative;
+  width: auto;
+  height: auto;
+  border: 2px solid black;
 }
 
 .photography {
   width: auto;
   height: auto;
-  position: absolute;
-  bottom: 0;
+  /* border: 1px solid red; */
   /* border: 1px solid red; */
   /* left: 0; */
   /* border: 1px solid red; */
 }
 
-
-
 @media screen and (max-width: 390px) {
   .title {
     line-height: 50px;
+  }
+  .photography {
+    width: 100vw;
   }
 }

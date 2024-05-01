@@ -4,7 +4,7 @@ const Photography = () => {
   return (
     <>
       <img
-        src="/img/photography.svg"
+        src="/img/photography.png"
         alt="Fotografia "
         className="photography"
       />
