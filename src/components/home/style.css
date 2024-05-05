@@ -2,7 +2,7 @@
   box-sizing: border-box;
   position: relative;
   background-color: var(--color3);
-  height: calc(97vh - 76px);
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
