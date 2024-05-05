@@ -14,6 +14,7 @@ const Text = () => {
         y contribuir con soluciones innovadoras a través de productos digitales.
         ¡Visita mi <strong>currículum!</strong>
       </p>
+      <p className="misSkills">Mis Skils</p>
     </section>
   );
 };

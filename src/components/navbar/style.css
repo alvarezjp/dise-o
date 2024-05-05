@@ -1,11 +1,11 @@
 .navbar {
-  height: 70px;
   padding: 20px 25px;
   background-color: var(--color3);
   display: flex;
   justify-content: space-between;
   position: relative;
   flex-wrap: wrap;
+  /* border: 1px solid red; */
 }
 
 .logo {
@@ -51,6 +51,11 @@
   color: var(--color5);
 }
 
+.misSkills{
+  position: absolute;
+  bottom: 0;
+}
+
 @media screen and (min-width: 990px) {
   .navbar {
     padding: 0px 0px;
@@ -58,7 +63,9 @@
     justify-content: space-around;
     align-content: center;
     padding: 15px;
+    rignh
   }
+
   .itemsLi {
     display: flex;
     order: 2;
@@ -90,5 +97,8 @@
 @media screen and (max-width: 390px) {
   .logo {
     width: 50vw;
+  }
+  .navbar{
+    height: auto;
   }
 }
