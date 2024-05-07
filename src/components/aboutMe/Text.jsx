@@ -2,7 +2,7 @@ import React from "react";
 
 const Text = () => {
   return (
-    <section>
+    <section className="sectionText">
       <h2 className="name">HOLA SOY JESÚS ALVAREZ</h2>
       <h3 className="title">
         Un entusiasta del desarrollo web y la programación.

@@ -6,8 +6,9 @@
   justify-content: center;
   align-items: center;
   padding: 151px 20px 0 20px;
-  /* border: 1px solid blue; */
 }
+
+
 
 .name {
   font-family: var(--notoSans);
@@ -40,32 +41,102 @@
 }
 
 .photoSection {
-  /* border: 3px solid blue; */
   width: auto;
   height: auto;
   border: 2px solid black;
 }
 
 .photography {
-  width: auto;
-  height: auto;
-  /* border: 1px solid red; */
-  /* border: 1px solid red; */
-  /* left: 0; */
-  /* border: 1px solid red; */
+  height: 523px;
+}
+
+.misSkills {
+  height: 37px;
+  display: block;
+  color: var(--color2);
+  right: 18px;
+  font-family: var(--notoSerif);
+  font-size: 44px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 390px) {
+  .name {
+    font-size: 20px;
+  }
+
   .title {
     font-size: 10.2vw;
     line-height: 13vw;
   }
   .photography {
     width: 100vw;
+    height: auto;
   }
 
   .aboutMe {
     padding: 100px 20px 0 20px;
-    
+  }
+  /* .misSkills{
+    font-size:30px ;
+    height: 20px;
+  } */
+}
+
+@media screen and (min-width: 431px) {
+  .name {
+    width: 320px;
+  }
+
+  .title {
+    width: 320px;
+    line-height: 46px;
+  }
+
+  .paragraph {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  .name {
+    width: 450px;
+    font-size: 32px;
+  }
+
+  .title {
+    width: 600px;
+    font-size: 64px;
+    line-height: 95px;
+    /* border: 1px solid red; */
+  }
+
+  .paragraph {
+    width: 600px;
+    font-size: 24px;
+    line-height: 39px;
+  }
+
+  .misSkills{
+    font-size: 99px;
+    height: 85px;
+    right: 36px;
+  }
+
+  .photography{
+    height: 822px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .aboutMe {
+    flex-direction: row;
+    padding-top: 73px;
+  }
+
+  .sectionText{
+    height: 822px;
+    box-sizing: border-box;
+    padding-top: 120px;
   }
 }
