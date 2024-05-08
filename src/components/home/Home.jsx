@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 function Home() {
     return (
-        <section className='home' id='esto'>
+        <section className='home' >
             <Text/>
             <CoffeIcon/>
         </section>

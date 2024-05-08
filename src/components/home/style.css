@@ -29,6 +29,33 @@
   width: 300px;
 }
 
+@media screen and (max-width: 390px) {
+  .homeText {
+    width: 76vw;
+    font-size: 12vw;
+    /* border: 1px solid red; */
+  }
+
+  .article {
+    width: auto;
+    align-items: center;
+  }
+
+  .home {
+    height: 80vh;
+  }
+
+  .coffeIcon {
+    position: absolute;
+    bottom: -1px;
+    right: 0px;
+    margin-right: 12px;
+    width: 150px;
+    border: 1px solid red;
+    
+  }
+}
+
 @media screen and (min-width: 620px) {
   .homeText {
     font-size: 96px;
@@ -50,18 +77,3 @@
   }
 }
 
-@media screen and (max-width: 390px) {
-  .homeText {
-    font-size: 12vw;
-    width: 80vw;
-  }
-
-  .article {
-    width: auto;
-    align-items: center;
-  }
-
-  .home {
-    height: 80vh;
-  }
-}
