@@ -1,6 +1,53 @@
 .skills{
+    box-sizing: border-box;
+    height: 30vh;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
     background-color: var(--color2);
     /* width: 100vw; */
-    height: 50vh;
+
+}
+
+.contain{
+    width: 80vw;
+    box-sizing: border-box;
+    display: flex;
+    gap: 36px;
+    border: 1px solid red;
+    /* animation: desplazar 15s linear infinite; */
+    /* border: 1px solid red; */
+}
+
+@keyframes desplazar {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-1000%);
+    }
+  }
+
+.iconSkills{
+    width: 96px;
+     animation: desplazar 15s linear infinite;
+    
+}
+
+
+@media screen and (max-width: 390px) {
+    
+}
+
+@media screen and (min-width: 431px) {
+
+}
+
+@media screen and (min-width: 630px) {
+
+}
+
+@media screen and (min-width: 1250px) {
 
 }
