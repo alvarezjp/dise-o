@@ -51,12 +51,12 @@
   color: var(--color5);
 }
 
-.misSkills{
+.misSkills {
   position: absolute;
   bottom: 0;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1250px) {
   .navbar {
     padding: 0px 0px;
     flex-direction: row;
@@ -85,6 +85,7 @@
     border-radius: 8px;
     font-family: var(--notoSans);
     font-weight: 500;
+    font-size: 20px;
     color: var(--color1);
   }
   .btnContact:hover {
@@ -97,7 +98,7 @@
   .logo {
     width: 50vw;
   }
-  .navbar{
+  .navbar {
     height: auto;
   }
 }

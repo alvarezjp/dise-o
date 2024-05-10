@@ -7,7 +7,7 @@ import ItemsLi from "./ItemsLi";
 import BoxList from "./BoxList";
 
 const LiSection = () => {
-  const desktop = useMediaQuery("(min-width: 990px)");
+  const desktop = useMediaQuery("(min-width: 1250px)");
   const [btnAction, setBtnAction] = useState(true);
   const btnToggle = () => {
     setBtnAction(!btnAction);
