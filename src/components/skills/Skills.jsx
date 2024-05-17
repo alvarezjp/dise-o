@@ -2,10 +2,22 @@ import React from "react";
 import "./style.css";
 
 const Skills = () => {
+  const mouseDown = () => {
+    console.log("click down");
+  };
+
+  const mouseUp = () => {
+    console.log("click up");
+  };
+
+  const mouseMove = () => {
+    console.log("Mouse Move");
+  }
+
   const arrayIcons = Array.from({ length: 9 }, (_, index) => index + 1);
   return (
     <section className="skills">
-      <article className="contain">
+      <article className="contain" onMouseDown={mouseDown} onMouseUp={mouseUp} onMouseMove={mouseMove}>
         {arrayIcons.map((item, index) => {
           return (
             <img
