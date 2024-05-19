@@ -15,10 +15,11 @@ const SkillsContainer = styled.section`
 `;
 
 const ContainArticle = styled.div`
-  
+  display: flex;
+  justify-content: center;
   height: auto;
   box-sizing: border-box;
- 
+
   /* border: 3px solid red; */
 `;
 const IconSkills = styled.img`
@@ -32,13 +33,13 @@ const Skills = () => {
 
   const settings = {
     dots: false,
-    arrows:false,
+    arrows: false,
     infinite: true,
     speed: 100,
     slidesToShow: 3, // Ajusta según la cantidad de íconos visibles al mismo tiempo
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 1000, // Ajusta la velocidad de autoplay
+    autoplaySpeed: 2000, // Ajusta la velocidad de autoplay
     pauseOnHover: true,
   };
 
@@ -46,14 +47,16 @@ const Skills = () => {
     <SkillsContainer>
       <Slider {...settings}>
         {arrayIcons.map((item, index) => (
-          <ContainArticle>
-            <IconSkills
-              key={index}
-              src={`./icons/skills${item}.png`}
-              alt="Iconos de skills"
-              className="iconSkills"
-            />
-          </ContainArticle>
+          <>
+            <ContainArticle>
+              <IconSkills
+                key={index}
+                src={`./icons/skills${item}.png`}
+                alt="Iconos de skills"
+                className="iconSkills"
+              />
+            </ContainArticle>
+          </>
         ))}
       </Slider>
     </SkillsContainer>
