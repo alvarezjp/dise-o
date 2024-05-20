@@ -10,7 +10,7 @@ const Skills = () => {
 
   let settings = {
     dots: false,
-    arrows: true,
+    arrows: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 4,
@@ -19,6 +19,12 @@ const Skills = () => {
     autoplaySpeed: 2000, // Ajusta la velocidad de autoplay
     pauseOnHover: true,
     responsive: [
+      {
+        breakpoint: 2250,
+        settings: {
+          arrows: true,
+        },
+      },
      
       {
         breakpoint: 900,
@@ -64,16 +70,15 @@ const Skills = () => {
     <SkillsContainer>
       <Slider {...settings}>
         {arrayIcons.map((item, index) => (
-          <>
-            <ContainArticle key={index}>
+          <div key={index}>
+            <ContainArticle >
               <IconSkills
-                key={item}
                 src={`./icons/skills${item}.png`}
                 alt="Iconos de skills"
                 className="iconSkills"
               />
             </ContainArticle>
-          </>
+          </div>
         ))}
       </Slider>
     </SkillsContainer>

@@ -14,7 +14,7 @@ const SkillsContainer = styled.section`
   /* border: 3px solid black; */
 `;
 
-const ContainArticle = styled.article`
+const ContainArticle = styled.div`
   display: flex;
   justify-content: center;
   height: auto;
