@@ -1,0 +1,43 @@
+.projectSection {
+  padding: 120px 0px 145px 0px;
+  position: relative;
+  /* border: 1px solid  red; */
+}
+.cardContainer {
+  padding: 10px;
+}
+
+.titleProject {
+  font-family: var(--notoSerif);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color3);
+  margin-bottom: 32px;
+}
+
+.boxCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.seeMore {
+  font-family: var(--notoSans);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color2);
+  margin-top: 24px;
+  text-align: right;
+}
+
+.contactMe{
+    font-family: var(--notoSerif);
+    font-weight: 700;
+    font-size: 44px;
+    color: var(--color3);
+    position: absolute;
+    bottom: -5px;
+    right: 18px;
+    /* display: block; */
+}

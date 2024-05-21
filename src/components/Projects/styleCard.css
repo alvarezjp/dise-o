@@ -1,0 +1,59 @@
+
+.car {
+  max-width: 390px;
+  flex: 0 1 390px;
+  height: 535px;
+  background-image: url("img/projectImg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.Incard {
+  max-width: 310px;
+  flex: 0 1 310px;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  flex-direction: column;  
+}
+
+.titleCard {
+  font-family: var(--notoSans);
+  font-weight: 700;
+  color: var(--color5);
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.subTitleCard {
+  font-family: var(--notoSans);
+  font-weight: 300;
+  color: var(--color5);
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.boxSkills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--color5);
+  padding: 24px;
+  gap: 10px;
+}
+
+.skills {
+  font-family: var(--notoSans);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color1);
+  display: inline;
+  border: 1px solid var(--color1);
+  border-radius: 4px;
+  padding: 2px 12px;
+}
