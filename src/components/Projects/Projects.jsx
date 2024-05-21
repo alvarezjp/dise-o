@@ -1,5 +1,5 @@
 import React from "react";
-import Cars from "./Cars";
+import Cards from "./Cards";
 import "./style.css";
 
 const Projects = () => {
@@ -8,10 +8,10 @@ const Projects = () => {
       <article className="cardContainer">
         <p className="titleProject">Proyectos</p>
         <article className="boxCards">
-          <Cars />
-          <Cars />
-          <Cars />
-          <Cars />
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
         </article>
         <p className="seeMore">Ver más</p>
       </article>

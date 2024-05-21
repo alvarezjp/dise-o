@@ -1,10 +1,13 @@
 .projectSection {
+    background-color: var(--color5);
+  display: flex;
+  justify-content: center;
   padding: 120px 0px 145px 0px;
   position: relative;
-  /* border: 1px solid  red; */
 }
 .cardContainer {
-  padding: 10px;
+  max-width: 390px;
+  box-sizing: border-box;
 }
 
 .titleProject {
@@ -31,13 +34,58 @@
   text-align: right;
 }
 
-.contactMe{
-    font-family: var(--notoSerif);
-    font-weight: 700;
-    font-size: 44px;
-    color: var(--color3);
-    position: absolute;
-    bottom: -5px;
-    right: 18px;
-    /* display: block; */
+.contactMe {
+  font-family: var(--notoSerif);
+  font-weight: 700;
+  font-size: 44px;
+  color: var(--color3);
+  position: absolute;
+  bottom: -5px;
+  right: 18px;
+  /* display: block; */
+}
+
+@media screen and (max-width: 400px) {
+  .cardContainer {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  .projectSection {
+    padding: 166px 0px 247px 0px;
+  }
+  .cardContainer {
+    max-width: 600px;
+  }
+
+  .titleProject {
+    font-size: 64px;
+  }
+  .boxCards {
+    gap: 80px;
+  }
+  .seeMore {
+    font-size: 32px;
+    margin-top: 32px;
+  }
+  .contactMe {
+    font-size: 96px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .projectSection {
+    
+    padding: 293px 0px 247px 0px;
+    
+  }
+  .cardContainer {
+    max-width: 1285px;
+    /* border: 1px solid green; */
+  }
+
+  .boxCards {
+    gap: 80px;
+  }
 }

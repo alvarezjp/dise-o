@@ -1,6 +1,6 @@
 import "./styleCard.css";
 
-const Cars = () => {
+const Cards = () => {
   return (
     <article className="card">
       <section className="Incard">
@@ -19,4 +19,4 @@ const Cars = () => {
   );
 };
 
-export default Cars;
+export default Cards;
