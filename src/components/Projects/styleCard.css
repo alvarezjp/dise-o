@@ -3,7 +3,7 @@
   max-width: 390px;
   flex: 0 1 390px;
   height: 535px;
-  background-image: url("img/projectImg.jpg");
+  background-image: url("./img/projectImg.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
