@@ -2,7 +2,7 @@ import "./styleCard.css";
 
 const Cars = () => {
   return (
-    <article className="car">
+    <article className="card">
       <section className="Incard">
         <h2 className="titleCard">Ecommerce</h2>
         <h3 className="subTitleCard">Venta de productos tecnologicos</h3>
