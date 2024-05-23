@@ -1,18 +1,19 @@
 import "./styleCard.css";
+// import data from "./projects.json"
 
-const Cards = () => {
+const Cards = ({ project }) => {
   return (
-    <article className="card">
+    <article
+      key={project.id}
+      className="card"
+      style={{ backgroundImage: `url(./img/${project.url})` }}>
       <section className="Incard">
-        <h2 className="titleCard">Ecommerce</h2>
-        <h3 className="subTitleCard">Venta de productos tecnologicos</h3>
+        <h2 className="titleCard">{project.title}</h2>
+        <h3 className="subTitleCard">{project.subTitle}</h3>
         <section className="boxSkills">
-          <p className="skills">HTML</p>
-          <p className="skills">REACT</p>
-          <p className="skills">JAVASCRIPT</p>
-          <p className="skills">HTML</p>
-          <p className="skills">REACT</p>
-          <p className="skills">JAVASCRIPT</p>
+          {project.skills.map((item,key) => {
+            return <p key={key} className="skills">{item}</p>;
+          })}
         </section>
       </section>
     </article>

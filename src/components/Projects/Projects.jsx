@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "./Cards";
 import "./style.css";
+import data from "./projects.json";
 
 const Projects = () => {
   return (
@@ -8,10 +9,9 @@ const Projects = () => {
       <article className="cardContainer">
         <p className="titleProject">Proyectos</p>
         <article className="boxCards">
-          <Cards/>
-          <Cards/>
-          <Cards/>
-          <Cards/>
+          {data.data.map((info) => {
+            return <Cards project={info} key={info.id} />;
+          })}
         </article>
         <p className="seeMore">Ver más</p>
       </article>
