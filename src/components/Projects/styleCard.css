@@ -7,7 +7,7 @@
   background-color: var(--color3);
   border: 3px solid var(--color3);
   border-radius: 4px;
-  font-family: var(--notoSans);
+  font-family: var(--notoSerif);
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.5px;
@@ -89,7 +89,7 @@
 @media screen and (min-width: 630px) {
   .LinkButton {
     font-size: 24px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     cursor: pointer;
   }
   .wrapper {
@@ -112,13 +112,4 @@
   }
 }
 
-@media screen and (min-width: 1250px) {
-  .titleCard {
-  }
-  .subTitleCard {
-  }
-  .boxSkills {
-  }
-  .skills {
-  }
-}
+
