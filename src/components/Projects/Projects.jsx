@@ -13,7 +13,7 @@ const Projects = () => {
             return <Cards project={info} key={info.id} />;
           })}
         </article>
-        <p className="seeMore">Ver más</p>
+        {/* <p className="seeMore">Ver más</p> */}
       </article>
       <p className="contactMe">Contact Me</p>
     </section>

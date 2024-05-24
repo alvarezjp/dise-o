@@ -5,28 +5,32 @@
       "url": "img1.jpg",
       "title": "Proyecto uno",
       "subTitle": "esto esto esto esto",
-      "skills": ["HTML", "REACT", "ANGULAR"]
+      "skills": ["HTML", "REACT", "ANGULAR"],
+      "link":"https://www.google.com/"
     },
     {
       "id":2,
       "url": "img2.jpg",
       "title": "Proyecto dos",
       "subTitle": "eso eso eso",
-      "skills": ["JAVA", "SPRED", "EXPRES","HTML", "REACT", "ANGULAR"]
+      "skills": ["JAVA", "SPRED", "EXPRES","HTML", "REACT", "ANGULAR"],
+      "link":"https://www.facebook.com/?locale=es_LA"
     },
     {
       "id":3,
       "url": "img3.jpg",
       "title": "Proyecto TREEEES",
       "subTitle": "escribiendo muchas cosas",
-      "skills": ["HTML", "REACT", "ANGULAR"]
+      "skills": ["HTML", "REACT", "ANGULAR"],
+      "link":"https://www.instagram.com/"
     },
     {
       "id":4,
       "url": "img3.jpg",
       "title": "Proyecto TREEEES",
       "subTitle": "escribiendo muchas cosas",
-      "skills": ["HTML", "REACT", "ANGULAR"]
+      "skills": ["HTML", "REACT", "ANGULAR"],
+      "link":"https://www.youtube.com/"
     }
   ]
 }
