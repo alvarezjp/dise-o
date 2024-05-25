@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section className="projectSection">
       <article className="cardContainer">
-        <p className="titleProject">Proyectos</p>
+        <p className="titleProject">Projects</p>
         <article className="boxCards">
           {data.data.map((info) => {
             return <Cards project={info} key={info.id} />;

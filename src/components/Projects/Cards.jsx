@@ -1,18 +1,32 @@
 import ViewProject from "./ViewProject";
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import "./styleCard.css";
 // import data from "./projects.json"
 
 const Cards = ({ project }) => {
   const [isHobered, setIsHoberes] = useState(false);
+  const touchVersion = useMediaQuery({ query: '(max-width: 630px)'});
+  const clickCard = () => {
+    if (touchVersion) {
+      setIsHoberes(!isHobered)
 
+    }
+  }
+
+  const mouseMove = () => {
+    if (!touchVersion) {
+      setIsHoberes(!isHobered)
+
+    }
+  }
   return (
     <section
       className="wrapper"
-      onMouseEnter={() => setIsHoberes(true)}
-      onMouseLeave={() => setIsHoberes(false)}>
+      onMouseEnter={mouseMove}
+      onMouseLeave={mouseMove}
+      onClick={clickCard}>
       {isHobered ? <ViewProject info={project} /> : ""}
-
       <article
         key={project.id}
         className={`card ${isHobered ? "hovered" : ""}`}
