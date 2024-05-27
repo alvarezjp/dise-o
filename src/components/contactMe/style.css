@@ -3,7 +3,7 @@
   padding: 150px 20px;
   background-color: var(--color3);
 }
-@media screen and (min-width: 431px) {
+@media screen and (min-width: 630px) {
   .articleContactMe {
     padding: 150px 80px;
   }
