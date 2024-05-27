@@ -14,17 +14,12 @@ const Cards = ({ project }) => {
     }
   }
 
-  const mouseMove = () => {
-    if (!touchVersion) {
-      setIsHoberes(!isHobered)
 
-    }
-  }
   return (
     <section
       className="wrapper"
-      onMouseEnter={mouseMove}
-      onMouseLeave={mouseMove}
+      onMouseEnter={()=>{setIsHoberes(true)}}
+      onMouseLeave={()=>{setIsHoberes(false)}}
       onClick={clickCard}>
       {isHobered ? <ViewProject info={project} /> : ""}
       <article

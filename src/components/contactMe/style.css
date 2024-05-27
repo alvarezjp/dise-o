@@ -1,0 +1,19 @@
+.articleContactMe {
+  box-sizing: border-box;
+  padding: 150px 20px;
+  background-color: var(--color3);
+}
+@media screen and (min-width: 431px) {
+  .articleContactMe {
+    padding: 150px 80px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .articleContactMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+}

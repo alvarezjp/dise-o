@@ -34,13 +34,13 @@
   text-align: right;
 }
 
-.contactMe {
+.titleContactMe {
   font-family: var(--notoSerif);
   font-weight: 700;
   font-size: 44px;
   color: var(--color3);
   position: absolute;
-  bottom: -5px;
+  bottom: -6px;
   right: 18px;
   /* display: block; */
 }
@@ -69,8 +69,9 @@
     font-size: 32px;
     margin-top: 32px;
   }
-  .contactMe {
+  .titleContactMe {
     font-size: 96px;
+    bottom: -12px;
   }
 }
 

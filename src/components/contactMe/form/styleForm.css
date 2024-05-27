@@ -1,0 +1,60 @@
+.formContact {
+  margin-top: 110px;
+}
+.formTitle {
+  font-family: var(--notoSans);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--color5);
+  letter-spacing: 0.2px;
+  margin-bottom: 16px;
+}
+.boxInput {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.labelForm {
+  font-family: var(--notoSans);
+  font-weight: 200;
+  font-size: 20px;
+  color: var(--color5);
+}
+.formInput {
+  font-family: var(--notoSans);
+  font-weight: 400;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+}
+.formTextArea {
+  height: 150px;
+}
+.formInput::placeholder {
+  color: var(--color4);
+}
+.formButton {
+  width: 100%;
+  height: 54px;
+  font-family: var(--notoSans);
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: var(--color3);
+  background-color: var(--color1);
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1250px) {
+  .formContact{
+    margin-top: 0px;
+    width: 40vw;
+    height: 542px;
+  }
+}

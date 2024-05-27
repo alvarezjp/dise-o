@@ -15,7 +15,7 @@ const Projects = () => {
         </article>
         {/* <p className="seeMore">Ver más</p> */}
       </article>
-      <p className="contactMe">Contact Me</p>
+      <p className="titleContactMe">Contact Me</p>
     </section>
   );
 };
