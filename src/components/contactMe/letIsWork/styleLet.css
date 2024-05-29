@@ -1,6 +1,5 @@
 
 .letIsWork {
-  /* border: 1px solid red; */
   box-sizing: border-box;
 }
 .contactTitle {
@@ -29,6 +28,7 @@
 .contactIcons {
   width: 56px;
   height: 56px;
+  cursor: pointer;
 }
 .contactIcons:last-of-type {
   margin-left: 16px;
