@@ -1,6 +1,18 @@
 .formContact {
   margin-top: 110px;
 }
+
+
+input:focus {
+  outline: none;
+  border: 3px solid var(--color1);
+}
+textarea:focus{
+  outline: none;
+  border: 3px solid var(--color1);
+}
+
+
 .formTitle {
   font-family: var(--notoSans);
   font-weight: 600;
@@ -30,11 +42,13 @@
   border-radius: 8px;
   border: none;
 }
+
 .formTextArea {
   height: 150px;
 }
 .formInput::placeholder {
   color: var(--color4);
+  opacity: 0.3;
 }
 .formButton {
   width: 100%;
