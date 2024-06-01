@@ -17,12 +17,13 @@ const LetIsWork = () => {
         en resultados tangibles. ¡Contacta hoy y llevemos tu negocio al
         siguiente nivel digital juntos!
       </p>
-      {icons.map((item) => {
+      {icons.map((item,key) => {
         return (
           <img
             src={`/icons/${item.name}.svg`}
             alt={`icono de ${item.url}`}
             className="contactIcons"
+            key={key}
             onClick={() => window.open(item.url)}
           />
         );

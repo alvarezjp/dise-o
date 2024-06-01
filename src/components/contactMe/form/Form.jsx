@@ -1,6 +1,7 @@
 import React from "react";
 import "./styleForm.css";
 import { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Form = () => {
   const [inputValue, setInputValue] = useState({
@@ -10,10 +11,36 @@ const Form = () => {
   });
   const formSubmit = (event) => {
     event.preventDefault();
-    console.log("se detuvo del envio");
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const userId = import.meta.env.VITE_EMAILJS_USER_ID;
+    emailjs
+      .send(
+        serviceId, 
+        templateId, 
+        inputValue,
+        userId 
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Su mensaje fue enviado con exito");
+        },
+        (err) => {
+          console.error("FAILED...", err);
+        }
+      );
+  };
+
+  const changeValue = (e) => {
+    const { name, value } = e.target;
+    setInputValue({
+      ...inputValue,
+      [name]: value,
+    });
   };
   return (
-    <form className="formContact" autocomplete="off" onSubmit={formSubmit}>
+    <form className="formContact" autoComplete="off" onSubmit={formSubmit}>
       <h2 className="formTitle">Formulario de contacto</h2>
       <div className="boxInput">
         <label htmlFor="name" className="labelForm">
@@ -25,6 +52,7 @@ const Form = () => {
           value={inputValue.name}
           placeholder="Nombre"
           className="formInput"
+          onChange={changeValue}
           required
         />
       </div>
@@ -35,6 +63,8 @@ const Form = () => {
         <input
           type="email"
           name="email"
+          value={inputValue.email}
+          onChange={changeValue}
           placeholder="correo@mail.com"
           className="formInput"
           required
@@ -48,6 +78,8 @@ const Form = () => {
           name="comment"
           placeholder="Escribe aqui..."
           className="formInput formTextArea"
+          value={inputValue.comment}
+          onChange={changeValue}
           required></textarea>
       </div>
       <button type="submit" className="formButton">

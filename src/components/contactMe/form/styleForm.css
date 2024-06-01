@@ -1,15 +1,20 @@
 .formContact {
   margin-top: 110px;
+  box-sizing: border-box;
 }
+
 
 
 input:focus {
   outline: none;
   border: 3px solid var(--color1);
+  box-sizing: border-box;
 }
 textarea:focus{
   outline: none;
   border: 3px solid var(--color1);
+  box-sizing: border-box;
+  
 }
 
 
@@ -26,6 +31,7 @@ textarea:focus{
   flex-direction: column;
   gap: 16px;
   margin-bottom: 16px;
+  box-sizing: border-box;
 }
 .labelForm {
   font-family: var(--notoSans);
@@ -41,6 +47,8 @@ textarea:focus{
   padding: 8px 16px;
   border-radius: 8px;
   border: none;
+  border: 3px solid transparent;
+  
 }
 
 .formTextArea {
@@ -49,6 +57,7 @@ textarea:focus{
 .formInput::placeholder {
   color: var(--color4);
   opacity: 0.3;
+  box-sizing: border-box;
 }
 .formButton {
   width: 100%;
