@@ -67,7 +67,7 @@ const Skills = () => {
   };
 
   return (
-    <SkillsContainer>
+    <SkillsContainer >
       <Slider {...settings}>
         {arrayIcons.map((item, index) => (
           <div key={index}>

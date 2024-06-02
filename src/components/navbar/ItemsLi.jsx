@@ -12,9 +12,9 @@ function ItemsLi() {
 
  
   return (
-    <ul className="itemsLi">
+    <ul className="itemsUl">
         {menu.map((items) => (
-          <li key={items}>{items}</li>
+          <li key={items}><a href={`#${items}`} className="itemsLi">{items}</a></li>
         ))}
     </ul>
   );

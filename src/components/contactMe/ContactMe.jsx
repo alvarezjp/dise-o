@@ -6,7 +6,7 @@ import "./style.css"
 
 const ContactMe = () => {
   return (
-    <article className="articleContactMe">
+    <article className="articleContactMe" >
       <LetIsWork/>
       <Form/>
     </article>

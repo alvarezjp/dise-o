@@ -5,7 +5,7 @@ import data from "./projects.json";
 
 const Projects = () => {
   return (
-    <section className="projectSection">
+    <section className="projectSection" id="Projects">
       <article className="cardContainer">
         <p className="titleProject">Projects</p>
         <article className="boxCards">
@@ -15,7 +15,7 @@ const Projects = () => {
         </article>
         {/* <p className="seeMore">Ver más</p> */}
       </article>
-      <p className="titleContactMe">Contact Me</p>
+      <p className="titleContactMe" id="Contact me">Contact Me</p>
     </section>
   );
 };
