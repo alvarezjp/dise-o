@@ -1,11 +1,11 @@
 .articleContactMe {
   box-sizing: border-box;
-  padding: 150px 20px;
+  padding: 72px 20px;
   background-color: var(--color3);
 }
 @media screen and (min-width: 630px) {
   .articleContactMe {
-    padding: 150px 80px;
+    padding: 96px 80px;
   }
 }
 

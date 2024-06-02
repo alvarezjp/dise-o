@@ -5,7 +5,7 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 151px 20px 0 20px;
+  padding: 96px 20px 0 20px;
   background-color: var(--color5);
 }
 
@@ -76,7 +76,7 @@
   }
 
   .aboutMe {
-    padding: 100px 20px 0 20px;
+    padding: 72px 20px 0 20px;
   }
   
 }
@@ -129,7 +129,7 @@
 @media screen and (min-width: 1250px) {
   .aboutMe {
     flex-direction: row;
-    padding-top: 73px;
+    padding-top: 0px;
   }
 
   .sectionText{
