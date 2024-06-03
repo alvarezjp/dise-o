@@ -3,9 +3,12 @@
   background-color: var(--color3);
   display: flex;
   justify-content: space-between;
-  position: relative;
+  /* position: relative; */
+  position: fixed;
   flex-wrap: wrap;
-
+  z-index: 1;
+width: 100%;
+box-sizing: border-box;
   /* border: 1px solid var(--color1); */
 }
 
