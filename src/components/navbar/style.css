@@ -5,7 +5,7 @@
   justify-content: space-between;
   position: relative;
   flex-wrap: wrap;
-  
+
   /* border: 1px solid var(--color1); */
 }
 
@@ -38,15 +38,18 @@
   font-family: var(--notoSans);
   font-size: 24px;
   box-sizing: border-box;
-  
   li {
-    width: 93%;
     padding: 9px 0px;
     box-sizing: border-box;
   }
   a {
     /* border: 1px solid red; */
     text-decoration: none;
+    font-family: var(--notoSans);
+    font-size: 24px;
+    box-sizing: border-box;
+    color: var(--color5);
+
     /* border-bottom: 2px solid var(--color5); */
   }
   a:visited {
@@ -122,6 +125,7 @@
     font-weight: 500;
     font-size: 20px;
     color: var(--color1);
+    cursor: pointer;
   }
   .btnContact:hover {
     background-color: var(--color1);
