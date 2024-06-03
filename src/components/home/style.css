@@ -2,7 +2,7 @@
   box-sizing: border-box;
   position: relative;
   background-color: var(--color3);
-  height: 98vh;
+  height: 86vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +51,9 @@
 }
 
 @media screen and (min-width: 600px) {
+  .home {
+    height: 98vh;
+  }
   .homeText {
     font-size: 76px;
   }
