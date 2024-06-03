@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <section>
-        <img src="./img/logo.svg" alt="Logotipo" className="logoFooter"/>
+        <a href="#"> <img src="./img/logo.svg" alt="Logotipo" className="logoFooter"/></a>
       </section>
       <section className="sectionName">
         <p className="textFooter">© 2022-2024 Jesús Álvarez.</p>
@@ -15,7 +15,7 @@ const Footer = () => {
       </section>
       <section className="sectionDesigner"> 
         <p className="textFooter">Diseñado por </p>
-        <p className="designer" onClick={urlBehance}>Francisca Pérez.</p>
+        <p className="designer" onClick={urlBehance}>Fran.dvisual</p>
       </section>
     </footer>
   );
