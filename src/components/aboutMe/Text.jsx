@@ -10,11 +10,11 @@ const Text = () => {
       <p className="paragraph">
         Cada proyecto representa un desafío emocionante para mí, donde puedo
         mejorar mis habilidades y explorar nuevas técnicas. Como{" "}
-        <strong>Front-End Developer </strong> mi objetivo es seguir aprendiendo
+        <strong >Front-End Developer </strong> mi objetivo es seguir aprendiendo
         y contribuir con soluciones innovadoras a través de productos digitales.
-        ¡Visita mi <strong>currículum!</strong>
+        ¡Visita mi <strong >currículum!</strong>
       </p>
-      <p className="misSkills" id="Skills">Mis Skills</p>
+      <p className="misSkills"  id="Skills" >Mis Skills</p>
     </section>
   );
 };
