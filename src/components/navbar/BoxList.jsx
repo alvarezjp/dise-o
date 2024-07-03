@@ -1,10 +1,10 @@
 import React from 'react';
 import ItemsLi from './ItemsLi';
 
-function BoxList() {
+function BoxList({btnToggle}) {
     return (
         <section className='boxList'>
-            <ItemsLi/>
+            <ItemsLi btnToggle={btnToggle}/>
         </section>
     );
 }

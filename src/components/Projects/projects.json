@@ -2,11 +2,11 @@
   "data": [
     {
       "id":1,
-      "url": "img1.jpg",
-      "title": "Proyecto uno",
-      "subTitle": "esto esto esto esto",
-      "skills": ["HTML", "REACT", "ANGULAR"],
-      "link":"https://www.google.com/"
+      "url": "img1.PNG",
+      "title": "Country Finder",
+      "subTitle": "Este proyecto consiste en un buscador de países, en el cual se obtiene información detallada de cada uno y su temperatura actual. Se ponen en práctica la adquisición de datos de una API, el uso de React para construir una interfaz dinámica y el uso de Hooks para manejar el estado de manera eficiente.",
+      "skills": ["HTML", "CSS", "REACT","API","AXIOS"],
+      "link":"https://country-information-chi.vercel.app/"
     },
     {
       "id":2,

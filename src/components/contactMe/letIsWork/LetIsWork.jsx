@@ -3,8 +3,8 @@ import "./styleLet.css";
 
 const LetIsWork = () => {
   const icons = [
-    {name:"github",url:"https://github.com/"},
-    {name:"linkedin",url:"https://www.linkedin.com"}
+    {name:"github",url:"https://github.com/alvarezjp"},
+    {name:"linkedin",url:"https://www.linkedin.com/in/jesusalvarezpasmino/"}
   ]
   
   return (

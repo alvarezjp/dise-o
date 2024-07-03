@@ -29,7 +29,7 @@ const LiSection = () => {
             onClick={btnToggle}
             className="closeMenu"
           />
-          <BoxList/>
+          <BoxList btnToggle={btnToggle} />
         </>
       )}
     </>

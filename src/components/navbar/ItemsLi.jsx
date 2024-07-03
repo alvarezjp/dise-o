@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 
-function ItemsLi() {
+function ItemsLi({btnToggle}) {
   let menu = ["Home", "About Me", "Skills", "Projects"];
   const phone = useMediaQuery({maxWidth: 430});
   const desktop = useMediaQuery({maxWidth: 1250});
@@ -14,7 +14,7 @@ function ItemsLi() {
   return (
     <ul className="itemsUl">
         {menu.map((items) => (
-          <li key={items}><a href={`#${items}`} className="itemsLi">{items}</a></li>
+          <li key={items}><a onClick={btnToggle} href={`#${items}`} className="itemsLi">{items}</a></li>
         ))}
     </ul>
   );
