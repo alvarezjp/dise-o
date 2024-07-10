@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import dotenv from 'dotenv';
 import path from 'path';
 
-dotenv.config({ path: path.resolve(__dirname, '.env') });
+dotenv.config({ path: path.resolve(__dirname, '.env.local') });
 
 // https://vitejs.dev/config/
 export default defineConfig({
