@@ -25,7 +25,7 @@ const Cards = ({ project }) => {
       <article
         key={project.id}
         className={`card ${isHobered ? "hovered" : ""}`}
-        style={{ backgroundImage: `url(./img/${project.url})` }}>
+        style={{ backgroundImage: `url(./img/${project.url})`,backgroundSize:"cover"}}>
         <section className="Incard">
           <h2 className="titleCard">{project.title}</h2>
           <h3 className="subTitleCard">{project.subTitle}</h3>

@@ -2,35 +2,20 @@
   "data": [
     {
       "id":1,
-      "url": "img1.PNG",
+      "url": "img1.jpg",
       "title": "Country Finder",
       "subTitle": "Este proyecto consiste en un buscador de países, en el cual se obtiene información detallada de cada uno y su temperatura actual. Se ponen en práctica la adquisición de datos de una API, el uso de React para construir una interfaz dinámica y el uso de Hooks para manejar el estado de manera eficiente.",
-      "skills": ["HTML", "CSS", "REACT","API","AXIOS"],
+      "skills": ["HTML5", "CSS3", "REACT","API","AXIOS","GIT"],
       "link":"https://country-information-chi.vercel.app/"
     },
     {
       "id":2,
-      "url": "img2.jpg",
-      "title": "Proyecto dos",
-      "subTitle": "eso eso eso",
-      "skills": ["JAVA", "SPRED", "EXPRES","HTML", "REACT", "ANGULAR"],
-      "link":"https://www.facebook.com/?locale=es_LA"
-    },
-    {
-      "id":3,
-      "url": "img3.jpg",
-      "title": "Proyecto TREEEES",
-      "subTitle": "escribiendo muchas cosas",
-      "skills": ["HTML", "REACT", "ANGULAR"],
-      "link":"https://www.instagram.com/"
-    },
-    {
-      "id":4,
-      "url": "img3.jpg",
-      "title": "Proyecto TREEEES",
-      "subTitle": "escribiendo muchas cosas",
-      "skills": ["HTML", "REACT", "ANGULAR"],
-      "link":"https://www.youtube.com/"
+      "url": "img2.PNG",
+      "title": "Proyecto Organizacion",
+      "subTitle": "Pagina realizada en React para poder organizar a los trabajadores por area. Se utilizan componentes de Materiaul UI para darle un diseño mas atractivo.",
+      "skills": ["HTML5", "CSS3", "JAVASCRIPT","REACT","GIT"],
+      "link":"https://project-org-alvarezjps-projects.vercel.app/"
     }
+   
   ]
 }
