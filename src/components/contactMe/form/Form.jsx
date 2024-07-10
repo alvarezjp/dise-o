@@ -11,25 +11,19 @@ const Form = () => {
   });
   const formSubmit = (event) => {
     event.preventDefault();
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-    const userId = import.meta.env.VITE_EMAILJS_USER_ID;
-    emailjs
-      .send(
-        serviceId, 
-        templateId, 
-        inputValue,
-        userId 
-      )
-      .then(
-        (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          alert("Su mensaje fue enviado con exito");
-        },
-        (err) => {
-          console.error("FAILED...", err);
-        }
-      );
+    alert("Su mensaje fue enviado con exito");
+    const serviceId = process.env.SERVICE;
+    const templateId = process.env.TEMPLATE;
+    const userId = process.env.USER;
+    emailjs.send(serviceId, templateId, inputValue, userId).then(
+      (response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        window.location.reload();
+      },
+      (err) => {
+        console.error("FAILED...", err);
+      }
+    );
   };
 
   const changeValue = (e) => {
@@ -82,7 +76,7 @@ const Form = () => {
           onChange={changeValue}
           required></textarea>
       </div>
-      <button type="submit" className="formButton">
+      <button type="submit" className="formButton" >
         ENVIAR
       </button>
     </form>
